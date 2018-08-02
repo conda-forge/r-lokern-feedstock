@@ -14,14 +14,16 @@ Summary: Kernel regression smoothing with adaptive local or global plug-in bandw
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-lokern-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-lokern-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-lokern-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-lokern-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-lokern-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-lokern-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-lokern-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-lokern-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-lokern-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-lokern-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-lokern-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-lokern-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-lokern/badges/version.svg)](https://anaconda.org/conda-forge/r-lokern)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-lokern/badges/downloads.svg)](https://anaconda.org/conda-forge/r-lokern)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--lokern-green.svg)](https://anaconda.org/conda-forge/r-lokern) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-lokern.svg)](https://anaconda.org/conda-forge/r-lokern) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-lokern.svg)](https://anaconda.org/conda-forge/r-lokern) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-lokern.svg)](https://anaconda.org/conda-forge/r-lokern) |
 
 Installing r-lokern
 ===================
