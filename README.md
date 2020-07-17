@@ -5,7 +5,7 @@ Home: https://CRAN.R-project.org/package=lokern
 
 Package license: GPL (>= 2)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Kernel regression smoothing with adaptive local or global plug-in bandwidth selection.
 
