@@ -52,9 +52,4 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - dpryan79
     - sebastian-luna-valero
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
