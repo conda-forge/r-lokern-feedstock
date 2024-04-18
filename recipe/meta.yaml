@@ -1,4 +1,4 @@
-{% set version = "1.1-10.1" %}
+{% set version = "1.1-11" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/lokern_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/lokern/lokern_{{ version }}.tar.gz
-  sha256: 8d3cfb4ba873c9affe3f63f3b6d2a72a8f5b67aa05771799ead7458bd38a8950
+  sha256: 1f7a28c5052e05aac40e3a2c88f6782c603269f3f36c0256b6c7769a0a1b5bdf
 
 build:
   merge_build_host: true  # [win]
@@ -22,7 +22,9 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}              # [not win]
+    - {{ stdlib("c") }}                # [not win]
     - {{ compiler('m2w64_c') }}        # [win]
+    - {{ stdlib("c") }}                # [win]
     - {{ compiler('fortran') }}        # [not win]
     - {{ compiler('m2w64_fortran') }}  # [win]
     - {{ posix }}filesystem        # [win]
